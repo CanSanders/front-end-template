@@ -1,0 +1,65 @@
+/************Style Headings**********************/
+h1 {
+    color: turquoise;
+    font-size: 7em;
+    }
+  
+h2 {
+    color: turquoise;
+    font-size: 3em;
+    }        
+/***********************Style contact info**********************************/
+
+ul {
+list-style-type: none;
+} /**Removes bullets**/
+
+li {
+font-size: 25px; 
+color: mediumturquoise;
+}
+
+/********Add Background Color*************/
+body {
+    background-color: lightgoldenrodyellow;
+}
+/******************Style inputs , select elements and textareas for form *******************/
+input[type=text], input[type=email], input[type=tel], select, textarea {
+    width: 100%;
+    padding: 12px;  
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+
+/************** Style the submit button**************** */
+button {
+    background-color: turquoise;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: teal;
+}
+
+/********************Media Queries************************************/
+@media (max-width: 700px) {
+    h1 {
+        font-size: 3em;
+}
+}

@@ -1,0 +1,111 @@
+/**********************************************Style Main Heading*************************************/
+h1 {
+    background-color: seagreen(251, 255, 0);
+    color: aquamarine;
+    font-size: 100px;
+    text-align: center;
+}
+/***************************Style Image*********************************/
+.header {
+    text-align: center;
+    border-radius: 180px;
+    padding-top: 30px; 
+    }
+/*****************************************Body color*****************************/
+body {
+    background-color: ivory;
+}
+/***************************************Navigation Area and Link  styling****************************/   
+
+.main-nav {
+    background-color: aquamarine;
+	display: block;
+	text-align: center;
+	    padding: 10px 15px;
+	}
+    
+    .message {
+        text-align: center;
+        color: white;
+        font-size: 85px;
+        padding: 20px;
+        margin: 10px;
+    }
+     
+    /*No bullets*/
+    ul {
+        list-style-type: none;
+    }
+
+    /* Change the color of links on hover */
+a:hover {
+    background-color: salmon;
+    color: white;
+}
+ /*center links, make link font white, uppercase text*/
+#nav li a{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+
+/***************************************Style Text****************************/  
+
+.benefits {
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-bottom: 150px;
+
+}
+
+.texttitle {
+    text-align: center;
+    color: salmon;
+    font-size: 40px;
+}
+
+.libenefits {
+    color: lightsalmon;
+    padding-left: 350px;
+    font-size: 28px;
+}
+
+
+/**********************************Style Footer*********************************************************/
+
+
+.main-footer {
+    color: aquamarine;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/*****************************************Media Queries***************************/
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 3em;
+}
+    
+    .message {
+        font-size: 3em;
+}
+    
+    #nav li{
+        font-size: .75em;
+}
+    
+    img {
+        width: 300px;
+        height: auto;
+        text-align: center;
+}  
+    
+    .libenefits {
+        padding-left: 14px;
+    }
+}

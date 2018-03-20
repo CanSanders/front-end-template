@@ -1,0 +1,42 @@
+
+/*************Style Headings********************/
+h1 {
+    display: flex;
+    color: white;
+    font-size: 8em;
+    background-color: aqua;
+    justify-content: center
+}
+
+
+h2 {
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    color: teal;
+}
+
+/**************Style Pricing Info********************/
+ul {
+    list-style: none;
+}
+li {
+    font-size: 1.5em;
+}
+
+/**********Adds background color*******************/
+body {
+    background-color: lightcyan;
+}
+
+
+/******************************Media Queries*************************************/
+@media (max-width: 700px) {
+h1 {
+    font-size: 3.1em;
+}
+
+h2 {
+    font-size: 2.25em;
+}
+}

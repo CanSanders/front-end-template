@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Me</title>
+        <link rel="stylesheet" href="css/contactme.css">
+    </head>
+    <!--My Contact Info-->
+    <body>
+        <h1>Contact Information</h1>
+            <ul>
+                <li>
+                    Candice Sanders
+                </li>
+                <li>
+                    Telephone Number: 502-299-4522
+                </li>
+                <li>
+                Email: candice02cul@yahoo.com
+                </li>
+            </ul>
+
+            <!--Form-->
+
+            <div class="container">
+
+                <form action="index.html" method="post">
+                    <h2>Inquiries</h2>
+            
+                        <fieldset>
+              
+            
+                            <label for="name">First and Last Name:</label>
+                            <input type="text" id="name" name="user_name">
+            
+                            <label for="mail">Email:</label>
+                            <input type="email" id="mail" name="user_email">
+
+                            <label for="telephone">Telephone Number:</label>
+                            <input type="tel" id="telephone" name="user_phone">
+        
+                        </fieldset>
+
+                        <fieldset>
+
+                            <label for="question">Questions or Comments:</label>
+                            <textarea id="question" name="user_question"></textarea>
+
+                        </fieldset>
+                
+
+                    <button type="submit" id="submitButton">Submit</button>
+  
+                </form>   
+    
+            </div> 
+            <script src="submit.js"></script>
+    </body> 
+</html>
